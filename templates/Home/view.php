@@ -32,7 +32,7 @@
                             <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" name="dncr" value=""> DNCR
+                                        <input class="form-check-input" type="checkbox" name="dncr" > DNCR
                                         <span class="form-check-sign">
                     <span class="check"></span>
                   </span>
@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" name="idncl" value=""> IDNCL
+                                        <input class="form-check-input" type="checkbox" name="idncl" > IDNCL
                                         <span class="form-check-sign">
                     <span class="check"></span>
                   </span>
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" name="tiaa" value=""> TIAA
+                                        <input class="form-check-input" type="checkbox" name="tiaa" > TIAA
                                         <span class="form-check-sign">
                     <span class="check"></span>
                   </span>
@@ -60,6 +60,14 @@
                             <button type="submit"  class="btn btn-primary  btn-lg">Process</button>
                         </div>
                     </form>
+
+                </div>
+                <div class="card">
+
+                   <div class="card-body">
+                       <h3>Message</h3>
+                       <?= $message ?>
+                   </div>
                 </div>
             </div>
         </div>
